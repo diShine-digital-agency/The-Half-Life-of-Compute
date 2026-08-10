@@ -1,0 +1,77 @@
+{
+  "verification": {
+    "checks": 10,
+    "failures": [],
+    "epoch_crosscheck_discrepancy_pct": 1.354004773269684
+  },
+  "leakage": {
+    "tf_at_zero": 35.0,
+    "tf_at_max": 50.0,
+    "tf_span": 15.0,
+    "floor_at_zero": 64.27306416392004,
+    "floor_at_max": 803.0868045482199,
+    "max_multiple": 12.0,
+    "max_pct_of_c0_per_yr": 200.0,
+    "floor50": {
+      "leak_multiple": 0.0,
+      "leak_per_month": 0.0,
+      "leak_pct_of_C0_per_yr": 0.0,
+      "t_frontier": 35.0,
+      "t_half": Infinity,
+      "floor_pct": 64.27306416392004
+    },
+    "floor100": {
+      "leak_multiple": 0.6273776440023001,
+      "leak_per_month": 17252.885210063254,
+      "leak_pct_of_C0_per_yr": 10.456294066705002,
+      "t_frontier": 37.0,
+      "t_half": Infinity,
+      "floor_pct": 102.89933281382235
+    }
+  },
+  "useful_life": [
+    {
+      "useful_life_yr": 2.0,
+      "kappa_star": 0.1902957693409888,
+      "kappa_assumed": 0.275,
+      "failures_absorbed_pct": 100.0,
+      "t_half_months_zero_inflow": 17.0
+    },
+    {
+      "useful_life_yr": 3.0,
+      "kappa_star": 0.2854436540114832,
+      "kappa_assumed": 0.275,
+      "failures_absorbed_pct": 96.3412554930848,
+      "t_half_months_zero_inflow": 25.0
+    },
+    {
+      "useful_life_yr": 4.0,
+      "kappa_star": 0.3805915386819776,
+      "kappa_assumed": 0.275,
+      "failures_absorbed_pct": 72.2559416198136,
+      "t_half_months_zero_inflow": 31.0
+    },
+    {
+      "useful_life_yr": 5.0,
+      "kappa_star": 0.47573942335247194,
+      "kappa_assumed": 0.275,
+      "failures_absorbed_pct": 57.80475329585089,
+      "t_half_months_zero_inflow": 36.0
+    },
+    {
+      "useful_life_yr": 6.0,
+      "kappa_star": 0.5708873080229664,
+      "kappa_assumed": 0.275,
+      "failures_absorbed_pct": 48.1706277465424,
+      "t_half_months_zero_inflow": 41.0
+    }
+  ],
+  "kappa_saturation": {
+    "r_zero": 0.029184065898196696,
+    "r_at_kstar": 0.021392186560347515,
+    "r_3kstar": 0.021349970354868353,
+    "retirement_only": 0.020833333333333332,
+    "excess_at_zero_pct": 40.08351631134415,
+    "excess_at_kstar_pct": 2.6824954896680797
+  }
+}
