@@ -25,8 +25,8 @@ Il decadimento hardware spiega solo il 13-14% dell'intervallo di uscita dalla fr
 01-SUBMISSION/      PDF finali: articolo e sintesi in EN, IT, FR
 02-DRAFT/model/     il modello (~200 righe di NumPy), suite di verifica, generatori di figure
 02-DRAFT/figures*/  tutte le figure, per lingua (articoli e sintesi esecutive)
-02-DATA/processed/  results.json, results_extended.json, tutte le tabelle CSV
-03-AUDIT/           la cronologia completa delle correzioni, incluse le affermazioni ritirate
+03-DATA/processed/  results.json, results_extended.json, tutte le tabelle CSV
+04-AUDIT/           la cronologia completa delle correzioni, incluse le affermazioni ritirate
 ```
 
 ## Riprodurre tutto
