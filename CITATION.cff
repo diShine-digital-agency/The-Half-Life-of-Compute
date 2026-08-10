@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this model or cite these results, please cite the paper below."
+title: "The Half-Life of Compute: model and reproduction package"
+authors:
+  - family-names: Escoda
+    given-names: Kevin
+    affiliation: "diShine, Milan, Italy"
+    orcid: "https://orcid.org/0009-0009-7368-8129"
+version: "1.0"
+date-released: "2026-08-09"
+repository-code: "https://github.com/diShine-digital-agency/The-Half-Life-of-Compute"
+license: MIT
+preferred-citation:
+  type: article
+  title: "The Half-Life of Compute: Modelling National AI Capacity Decay Under Supply Severance"
+  authors:
+    - family-names: Escoda
+      given-names: Kevin
+      orcid: "https://orcid.org/0009-0009-7368-8129"
+  year: 2026
+  publisher: Zenodo
+  doi: "10.5281/zenodo.21866487"
