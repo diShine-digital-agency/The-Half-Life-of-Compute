@@ -25,8 +25,8 @@ Hardware decay explains only 13-14% of the frontier-exit interval. The frontier 
 01-SUBMISSION/      final PDFs: paper and executive summary in EN, IT, FR
 02-DRAFT/model/     the model (~200 lines of NumPy), verification suite, figure generators
 02-DRAFT/figures*/  all figures, per language (papers and executive summaries)
-02-DATA/processed/  results.json, results_extended.json, all CSV tables
-03-AUDIT/           the full correction history, including withdrawn claims
+03-DATA/processed/  results.json, results_extended.json, all CSV tables
+04-AUDIT/           the full correction history, including withdrawn claims
 ```
 
 ## Reproduce everything
