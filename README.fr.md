@@ -22,12 +22,11 @@ Le declin materiel n'explique que 13-14% de l'intervalle de sortie. Le reste est
 ## Plan du depot
 
 ```
-05-DRAFT/model/     le modele (~200 lignes de NumPy), suite de verification, generateurs de figures
-05-DRAFT/build/     sources des manuscrits (EN, IT, FR) et builders PDF/DOCX
-05-DRAFT/figures*/  toutes les figures, par langue (articles et syntheses)
-03-DATA/processed/  results.json, results_extended.json, toutes les tables CSV
-06-SUBMISSION/      PDF finaux : article et synthese en EN, IT, FR
-01-AUDIT/           l'historique complet des corrections, y compris les affirmations retirees
+01-SUBMISSION/      PDF finaux : article et synthese en EN, IT, FR
+02-DRAFT/model/     le modele (~200 lignes de NumPy), suite de verification, generateurs de figures
+02-DRAFT/figures*/  toutes les figures, par langue (articles et syntheses)
+02-DATA/processed/  results.json, results_extended.json, toutes les tables CSV
+03-AUDIT/           l'historique complet des corrections, y compris les affirmations retirees
 ```
 
 ## Tout reproduire
