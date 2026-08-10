@@ -1,0 +1,5 @@
+kappa,regime,t_half_months,t_frontier_months,floor_pct
+10.0,κ=10 · aviation (parts-rich),inf,37.0,92.92929297054225
+1.0,κ=1 · hypothetical field-repairable,inf,37.0,92.92929296624132
+0.5,"κ=0.5 · compute, upper bound",inf,37.0,92.92929296624132
+0.05,"κ=0.05 · compute, lower bound",inf,36.0,70.67677502173551
