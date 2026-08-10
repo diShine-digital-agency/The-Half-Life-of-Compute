@@ -1,0 +1,26 @@
+# The Half-Life of Compute — reproduction environment
+# Verified working: Python 3.13.9, macOS 25.2.0, 2026-08-08
+#
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#   python3 compute_decay_model.py     # model, Monte Carlo, figures, tables
+#   python3 verify_and_extend.py       # independent verification — must print ALL CHECKS PASSED
+#
+# The model itself needs only numpy + pandas. matplotlib is for figures;
+# the remaining packages are for manuscript typesetting and are not required
+# to reproduce any numerical result.
+
+# ── required to reproduce every number in the paper ──────────────────────────
+numpy==2.4.3
+pandas==3.0.2
+
+# ── required to regenerate the figures ───────────────────────────────────────
+matplotlib==3.11.1
+
+# ── required only to rebuild the manuscript PDFs / Word files ────────────────
+reportlab==5.0.0
+python-docx==1.2.0
+pillow==12.1.1
+
+# No solver, no scipy, no ML framework. The model is ~200 lines of NumPy and
+# runs in under two minutes on a laptop.
